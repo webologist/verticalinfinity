@@ -1,8 +1,8 @@
 'use client';
 
 import { Canvas } from '@react-three/fiber';
-import { PerspectiveCamera, PointMaterial } from '@react-three/drei';
-import { useEffect, useRef, useMemo } from 'react';
+import { PerspectiveCamera } from '@react-three/drei';
+import { useEffect, useRef } from 'react';
 import * as THREE from 'three';
 import gsap from 'gsap';
 import { useState } from 'react';
