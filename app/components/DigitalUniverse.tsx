@@ -65,7 +65,7 @@ function OrbitingPlanet({
       ease: 'none',
     });
 
-    return () => rotateAnimation.kill();
+    return () => { rotateAnimation.kill(); };
   }, [index]);
 
   return (
