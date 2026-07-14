@@ -18,7 +18,6 @@ const services = [
 function OrbitingPlanet({
   position,
   color,
-  name,
   index,
   onHover,
   isHovered,
